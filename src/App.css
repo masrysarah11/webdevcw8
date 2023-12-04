@@ -1,0 +1,68 @@
+/* Reset some default styles */
+body, ul, ol, li, p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Center the content in the container */
+.App {
+  text-align: center;
+}
+
+/* Header styling */
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px + 2vmin);
+  color: white;
+}
+
+/* Logo styling */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  animation: App-logo-spin infinite 20s linear;
+}
+
+/* Link styling */
+.App-link {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+/* Dropdown button styling */
+#typeDropdown {
+  background-color: #61dafb;
+  color: white;
+  border: none;
+}
+
+/* Dropdown menu container styling */
+#typeDropdown .dropdown-menu {
+  background-color: #282c34;
+}
+
+/* Dropdown item styling */
+#typeDropdown .dropdown-item {
+  color: #61dafb;
+}
+
+/* Hover effect on dropdown item */
+#typeDropdown .dropdown-item:hover {
+  background-color: #61dafb;
+  color: white;
+}
+
+/* Active state styling for dropdown item */
+#typeDropdown .dropdown-item.active {
+  background-color: #61dafb;
+  color: white;
+}
